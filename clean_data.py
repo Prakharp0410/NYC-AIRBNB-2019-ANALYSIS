@@ -45,8 +45,8 @@ def clean_airbnb_data(input_path, output_path):
 
 
 if __name__ == "__main__":
-    raw_file = "D:/PROJECT/PANDAS/data/AB_NYC_2019.csv"             # your original raw file path
-    cleaned_file = "D:/PROJECT/PANDAS/data/cleaned_airbnb_2019.csv"  # path for cleaned output
+    raw_file = "data\AB_NYC_2019.csv"             # your original raw file path
+    cleaned_file = "data\cleaned_airbnb_2019.csv"  # path for cleaned output
 
     if os.path.exists(raw_file):
         clean_airbnb_data(raw_file, cleaned_file)

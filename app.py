@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 @st.cache_data
 
 def load_data():
-    df = pd.read_csv("D:/PROJECT/PANDAS/data/cleaned_airbnb_2019.csv")
+    df = pd.read_csv("data\cleaned_airbnb_2019.csv")
     return df
 
 def add_filters(df):
